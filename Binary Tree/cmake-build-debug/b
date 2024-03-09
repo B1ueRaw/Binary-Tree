@@ -1,0 +1,140 @@
+==== NODE POINTED TO ->   Collection @ 0x55b7d5385300:
+        Title: The Frump Collection
+        Books count: 5
+        Previous collection: ((nil)):
+        Next collection: (0x55b7d5381d90): The Mastracchio Collection
+        Book @ 0x55b7d5382240:
+                Title: Into Thin Air
+                Author: Jon Krakauer
+                Checkout count: 67
+                Genre: ADVENTURE
+                Condition: POOR
+                Previous book: ((nil)):
+                Next book: (0x55b7d5385d50): A Feast for Crows
+==== BOOK POINTED TO ->         Book @ 0x55b7d5385d50:
+                Title: A Feast for Crows
+                Author: George R. R. Martin
+                Checkout count: 74
+                Genre: NARRATIVE
+                Condition: POOR
+                Previous book: (0x55b7d5382240): Into Thin Air
+                Next book: (0x55b7d5385a80): Harry Potter and the Deathly Hallows
+        Book @ 0x55b7d5385a80:
+                Title: Harry Potter and the Deathly Hallows
+                Author: J. K. Rowling
+                Checkout count: 57
+                Genre: ADVENTURE
+                Condition: FAIR
+                Previous book: (0x55b7d5385d50): A Feast for Crows
+                Next book: (0x55b7d53857b0): The Magician's Nephew
+        Book @ 0x55b7d53857b0:
+                Title: The Magician's Nephew
+                Author: C. S. Lewis
+                Checkout count: 44
+                Genre: ADVENTURE
+                Condition: GOOD
+                Previous book: (0x55b7d5385a80): Harry Potter and the Deathly Hallows
+                Next book: (0x55b7d53854e0): A Dance with Dragons
+        Book @ 0x55b7d53854e0:
+                Title: A Dance with Dragons
+                Author: George R. R. Martin
+                Checkout count: 46
+                Genre: NOVEL
+                Condition: FAIR
+                Previous book: (0x55b7d53857b0): The Magician's Nephew
+                Next book: ((nil)):
+Collection @ 0x55b7d5381d90:
+        Title: The Mastracchio Collection
+        Books count: 2
+        Previous collection: (0x55b7d5385300): The Frump Collection
+        Next collection: (0x55b7d53845e0): The Polansky Collection
+        Book @ 0x55b7d5383410:
+                Title: Jurassic Park
+                Author: Michael Crichton
+                Checkout count: 54
+                Genre: NARRATIVE
+                Condition: NEW
+                Previous book: ((nil)):
+                Next book: (0x55b7d5381f70): On the Origin of Species
+==== BOOK POINTED TO ->         Book @ 0x55b7d5381f70:
+                Title: On the Origin of Species
+                Author: Charles Darwin
+                Checkout count: 6
+                Genre: ADVENTURE
+                Condition: GOOD
+                Previous book: (0x55b7d5383410): Jurassic Park
+                Next book: ((nil)):
+Collection @ 0x55b7d53845e0:
+        Title: The Polansky Collection
+        Books count: 4
+        Previous collection: (0x55b7d5381d90): The Mastracchio Collection
+        Next collection: (0x55b7d53838c0): The Washington Collection
+==== BOOK POINTED TO ->         Book @ 0x55b7d5385030:
+                Title: Outlander
+                Author: Diana Gabaldon
+                Checkout count: 67
+                Genre: NOVEL
+                Condition: POOR
+                Previous book: ((nil)):
+                Next book: (0x55b7d5384d60): A Breath of Snow and Ashes
+        Book @ 0x55b7d5384d60:
+                Title: A Breath of Snow and Ashes
+                Author: Diana Gabaldon
+                Checkout count: 70
+                Genre: NARRATIVE
+                Condition: NEW
+                Previous book: (0x55b7d5385030): Outlander
+                Next book: (0x55b7d5384a90): A Clash of Kings
+        Book @ 0x55b7d5384a90:
+                Title: A Clash of Kings
+                Author: George R. R. Martin
+                Checkout count: 29
+                Genre: SCI_FI
+                Condition: FAIR
+                Previous book: (0x55b7d5384d60): A Breath of Snow and Ashes
+                Next book: (0x55b7d53847c0): The Art of War
+        Book @ 0x55b7d53847c0:
+                Title: The Art of War
+                Author: Sun Tzu
+                Checkout count: 13
+                Genre: NARRATIVE
+                Condition: NEW
+                Previous book: (0x55b7d5384a90): A Clash of Kings
+                Next book: ((nil)):
+Collection @ 0x55b7d53838c0:
+        Title: The Washington Collection
+        Books count: 4
+        Previous collection: (0x55b7d53845e0): The Polansky Collection
+        Next collection: ((nil)):
+==== BOOK POINTED TO ->         Book @ 0x55b7d5384310:
+                Title: Harry Potter and the Cursed Child
+                Author: J. K. Rowling
+                Checkout count: 8
+                Genre: NON_FICTION
+                Condition: POOR
+                Previous book: ((nil)):
+                Next book: (0x55b7d5384040): The Art of Computer Programming: Sorting and Searching
+        Book @ 0x55b7d5384040:
+                Title: The Art of Computer Programming: Sorting and Searching
+                Author: Donald Knuth
+                Checkout count: 95
+                Genre: NOVEL
+                Condition: FAIR
+                Previous book: (0x55b7d5384310): Harry Potter and the Cursed Child
+                Next book: (0x55b7d5383d70): The Art of Computer Programming: Combinatorial Algorithms
+        Book @ 0x55b7d5383d70:
+                Title: The Art of Computer Programming: Combinatorial Algorithms
+                Author: Donald Knuth
+                Checkout count: 87
+                Genre: NON_FICTION
+                Condition: GOOD
+                Previous book: (0x55b7d5384040): The Art of Computer Programming: Sorting and Searching
+                Next book: (0x55b7d5383aa0): Frankenstein
+        Book @ 0x55b7d5383aa0:
+                Title: Frankenstein
+                Author: Mary Shelley
+                Checkout count: 9
+                Genre: NON_FICTION
+                Condition: GOOD
+                Previous book: (0x55b7d5383d70): The Art of Computer Programming: Combinatorial Algorithms
+                Next book: ((nil)):
